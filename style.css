@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+.card{
+    box-shadow: 10px 10px 20px;
+    background: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 10px;
+    padding: 50px;
+    margin-top: 15vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url('./cardbg.jpg');
+    background-size:700px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size:50px;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(240, 237, 237);
+    background-image: url('./mainbg.jpg');
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 7px;
+}
+
+button{
+    background: rgb(99, 247, 99);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px;
+   font-weight: bold;
+}
+
+.weatherReport{
+   
+    margin-top: 20px;
+    text-align: center;
+
+}

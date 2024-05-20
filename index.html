@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>WeatherNow</H1>
+
+<div class="main">
+
+    <div class="card">
+
+        <!-- <form action="" name="myform"> -->
+
+
+            <input type="text" name="inputloca" class="inputloca" placeholder="Enter City, Country">
+            <button onclick="findWeather()" class="findloca">Search</button>
+            <sub><center>or</center></sub>
+            <button onclick="geoWeather()" class="findgeo">Use Gps</button>
+
+        <!-- </form> -->
+
+        <div class="weatherReport">
+
+            <h2 class="city"></h2>
+            <h3 class="temp"></h3>
+            <h3 class="airquality"></h3>
+            <h3 class="wind"></h3>
+            <h3 class="humidity"></h3>
+        </div>
+
+    </div>
+
+</div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
